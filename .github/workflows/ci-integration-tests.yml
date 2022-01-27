@@ -7,7 +7,7 @@ jobs:
     runs-on: macos-latest
     strategy:
       matrix:
-        node: [ '12', '14', '16' ]
+        node: [ '12', '17.4' ]
     name: Node ${{ matrix.node }} integration test
     steps:
       - uses: actions/checkout@v2
